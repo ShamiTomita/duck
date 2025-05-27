@@ -17,6 +17,12 @@ gem 'shakapacker', '~> 7.1'  # Webpack integration for Rails
 gem 'react-rails'            # React integration
 gem 'rack-cors'             # Handle Cross-Origin Resource Sharing (CORS)
 
+# Authentication
+gem 'devise'               # Authentication solution
+gem 'omniauth'            # OAuth2 framework
+gem 'omniauth-github'     # GitHub OAuth2 strategy
+gem 'omniauth-rails_csrf_protection' # CSRF protection for OmniAuth
+
 # API related
 gem 'jbuilder'              # JSON builder
 gem 'ruby-openai'           # OpenAI API integration
