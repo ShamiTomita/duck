@@ -33,3 +33,27 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+
+# Ignore environment variables and secrets
+.env
+
+# Ignore node modules
+/node_modules
+/public/packs
+/public/packs-test
+/yarn-error.log
+yarn-debug.log*
+.yarn-integrity
+
+# Ignore coverage reports
+/coverage/*
+
+# Ignore Mac system files
+.DS_Store
+
+/public/packs
+/public/packs-test
+/node_modules
+/yarn-error.log
+yarn-debug.log*
+.yarn-integrity
